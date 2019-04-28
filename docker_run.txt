@@ -1,0 +1,10 @@
+docker run --name mysql -d -e MYSQL_RANDOM_ROOT_PASSWORD=yes \
+    -e MYSQL_DATABASE=victoria_db -e MYSQL_USER=afmo \
+    -e MYSQL_PASSWORD="LPNjKP:P+h#}>CuYea,v8+_NL:bHT." \
+    mysql:latest
+
+docker run --name fish -i -p 16084:16084 \
+    -e SECRET_KEY="%u>=cQ2qAnjsJCd3:E%(#\vf+8+fAd)twW\&'Q3#" \
+    -e API_USERNAME="santi" \
+    -e API_PASSWORD="semueretony" \
+    fish:latest
