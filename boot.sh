@@ -16,4 +16,4 @@ done
 
 python3 create_user.py
 python3 enter_domains.py
-exec gunicorn -b :16084 --access-logfile - --error-logfile - fish:app
+exec gunicorn -b :16084 --access-logfile - --error-logfile - app:app

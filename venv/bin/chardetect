@@ -1,5 +1,4 @@
-#!/home/sauln/Documents/fish/venv/bin/python3
-
+#!/home/sauln/Documents/fish/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
