@@ -16,4 +16,4 @@ done
 
 python3 create_admin.py
 python3 enter_domains.py
-exec gunicorn -b :5000 --access-logfile - --error-logfile - victoria:app
+exec gunicorn -b :16084 --access-logfile - --error-logfile - victoria:app
