@@ -1,13 +1,12 @@
-from app import app
 import requests
 
-url_test = 'http://tetracebu.com/wp-content/themes/adventure-journal/images/bh/net/apple/Suspend.php'
-# url_test = 'https://www.phishtank.com/phish_detail.php?phish_id=6026722'
+# url_test = 'http://tetracebu.com/wp-content/themes/adventure-journal/images/bh/net/apple/Suspend.php'
+url_test = 'https://www.tumamaeshombre.com'
 
 
-url = "http://127.0.0.1:5000"
-api_username = "admin"
-api_password = "class"
+url = "http://54.198.112.41:16084"
+api_username = "santi"
+api_password = "semueretony"
 token_response = requests.get(url + "/api/v1.0/token", auth=(api_username, api_password))
 if token_response:
     json_token = token_response.json()
